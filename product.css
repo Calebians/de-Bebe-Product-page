@@ -1,0 +1,74 @@
+
+
+ body{
+   background-image: linear-gradient(rgb(56, 147, 207), rgb(84, 59, 153));
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    margin-top: 5%;
+    margin-right: 10%; 
+    margin-left: 10%;
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+.head{
+    background-image: url(Images/bk33.jpg);
+    background-color: rgb(190, 189, 189);
+    background-blend-mode: multiply;
+    height: 600px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.flexcontainer{
+    display: flex;
+    position: relative;
+}
+.flexcontainer h1{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.flexcontainer form{
+    background-color: rgb(41, 39, 39);
+    position: absolute;
+    color:rgb(163, 125, 125);
+    right: 125px;
+    top: -25px;
+    padding: 20px;
+    border-radius: 5%;
+}
+input[type=submit]{
+    background-color: rgb(154, 154, 161);
+    margin:0px;
+    padding: 13px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+.p{
+    text-align: center;
+    color:rgb(163, 125, 161);
+}
+input[type=text]{
+    border: none;
+    border-bottom: solid 2px rgb(154, 154, 161);
+    background-color: transparent;
+}
+
+input[type=email]{
+    border: none;
+    border-bottom: solid 2px rgb(154, 154, 177); 
+    background-color: transparent;  
+}
